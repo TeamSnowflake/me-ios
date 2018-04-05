@@ -1,14 +1,12 @@
 package io.forus.me.entities
 
-import android.arch.persistence.room.*
+import android.arch.lifecycle.LiveData
+import io.forus.me.services.IdentityService
+import io.forus.me.services.RecordService
 
-@Entity
 class RecordCategory (
-
-        var label: String = "",
-
-        var account: String = ""
-) {
-    @PrimaryKey(autoGenerate = true)
-    var id: Long? = null
-}
+        val id: Int,
+        val labelResource: Int,
+        val iconResource: Int,
+        private var records: LiveData<List<Record>>? = RecordService.getRecordsByCategoryByIdentity(id, IdentityService.currentAddress)
+)
