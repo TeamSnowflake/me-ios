@@ -1,5 +1,6 @@
 
-[![join chat](https://img.shields.io/badge/join%20chat-identity-green.svg)](https://chat.forus.io/channel/identity)
+[![join chat](https://img.shields.io/badge/join%20chat-me-green.svg)](https://chat.forus.io/channel/me)
+
 
 **note:** work in progress, beware of the dragons 🐉 
 
