@@ -4,7 +4,15 @@
 
 **note:** work in progress, beware of the dragons 🐉 
 
-# me
+## Instalation
+
+simply run `pod install` and open `me.xcworkspace`
+
+## Additional info
+
+view the designs [here](https://github.com/teamforus/me/tree/master/designs/v0.2/iOS/Preview)
+
+## about me
 
 me helps you manage your self sovereign identity. Its goal is to enable identity recovery trough delegates, be permissionless and be completely open source. 
 
