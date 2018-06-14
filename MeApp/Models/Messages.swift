@@ -10,22 +10,16 @@ import Foundation
 import JSONCodable
 
 struct  Messages{
-    var id: Int
     var name: String
     var message: String
-    var created_at: String
-    var updated_at: String
 }
 
 extension Messages: JSONDecodable{
     
     init(object: JSONObject) throws {
         let decoder = JSONDecoder(object:object)
-        id = try decoder.decode("id")
         name = try decoder.decode("name")
         message = try decoder.decode("message")
-        created_at = try decoder.decode("created_at")
-        updated_at = try decoder.decode("updated_at")
     }
 }
 

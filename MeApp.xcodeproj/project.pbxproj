@@ -44,6 +44,7 @@
 		6556376420B7078800E45487 /* MASetUpPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6556376320B7078800E45487 /* MASetUpPinViewController.swift */; };
 		6556376620B718DF00E45487 /* MASpeachRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6556376520B718DF00E45487 /* MASpeachRecognition.swift */; };
 		6556376820B726F700E45487 /* MABaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6556376720B726F700E45487 /* MABaseViewController.swift */; };
+		657B074820D2C11C0093930E /* MAHelloWorldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657B074720D2C11C0093930E /* MAHelloWorldTableViewCell.swift */; };
 		659B7E3320D00BD90030D903 /* ResponseMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659B7E3120D00BD90030D903 /* ResponseMessages.swift */; };
 		659B7E3420D00BD90030D903 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659B7E3220D00BD90030D903 /* Messages.swift */; };
 		659B7E3820D00C030030D903 /* HelloWorld.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 659B7E3720D00C030030D903 /* HelloWorld.storyboard */; };
@@ -205,6 +206,7 @@
 		6556376320B7078800E45487 /* MASetUpPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MASetUpPinViewController.swift; sourceTree = "<group>"; };
 		6556376520B718DF00E45487 /* MASpeachRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MASpeachRecognition.swift; sourceTree = "<group>"; };
 		6556376720B726F700E45487 /* MABaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MABaseViewController.swift; sourceTree = "<group>"; };
+		657B074720D2C11C0093930E /* MAHelloWorldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAHelloWorldTableViewCell.swift; sourceTree = "<group>"; };
 		659B7E3120D00BD90030D903 /* ResponseMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseMessages.swift; sourceTree = "<group>"; };
 		659B7E3220D00BD90030D903 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		659B7E3720D00C030030D903 /* HelloWorld.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HelloWorld.storyboard; sourceTree = "<group>"; };
@@ -493,6 +495,23 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		657B074B20D2D70B0093930E /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				659B7E3B20D00C580030D903 /* MAHelloWorldViewController.swift */,
+				657B074C20D2D7180093930E /* Cell */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		657B074C20D2D7180093930E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				657B074720D2C11C0093930E /* MAHelloWorldTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		65A51F5E20B2FFF10010DB33 = {
 			isa = PBXGroup;
 			children = (
@@ -675,7 +694,7 @@
 				65D764E120B73940007D7B9D /* PinProfile */,
 				6504474320C077FE00D040B9 /* LoginWithQR */,
 				6504474420C0787C00D040B9 /* KindPaket */,
-				659B7E3B20D00C580030D903 /* MAHelloWorldViewController.swift */,
+				657B074B20D2D70B0093930E /* HelloWorld */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -1130,6 +1149,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MeApp/Pods-MeApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ANLoader/ANLoader.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlertBar/AlertBar.framework",
 				"${BUILT_PRODUCTS_DIR}/BigInt.swift/BigInt.framework",
@@ -1138,6 +1158,7 @@
 				"${BUILT_PRODUCTS_DIR}/ExpandableCell/ExpandableCell.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/JSONCodable/JSONCodable.framework",
+				"${BUILT_PRODUCTS_DIR}/ListPlaceholder/ListPlaceholder.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
@@ -1152,6 +1173,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ANLoader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlertBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
@@ -1160,6 +1182,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExpandableCell.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONCodable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ListPlaceholder.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
@@ -1300,6 +1323,7 @@
 				65B89ABA20B442C60024DC51 /* MAFailValidationViewController.swift in Sources */,
 				6504474220C0715C00D040B9 /* MAKindpakketCurrenciesViewController.swift in Sources */,
 				6556375420B6DE8300E45487 /* PopupWindowManager.swift in Sources */,
+				657B074820D2C11C0093930E /* MAHelloWorldTableViewCell.swift in Sources */,
 				6504473A20C04BD800D040B9 /* UIAlertAction+Extensions.swift in Sources */,
 				65A51F7320B2FFF20010DB33 /* MeApp.xcdatamodeld in Sources */,
 				65BFF46820C16C3C00F64215 /* RequestNewIndetity.swift in Sources */,

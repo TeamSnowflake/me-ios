@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.7.0)
   - AlertBar (0.4.2)
+  - ANLoader (1.1.1)
   - BigInt.swift (1.0.0)
   - CryptoSwift (0.10.0)
   - DropDown (2.3.1)
@@ -8,6 +9,7 @@ PODS:
   - Geth (1.8.10)
   - IQKeyboardManagerSwift (5.0.7)
   - JSONCodable (3.0.1)
+  - ListPlaceholder (1.2)
   - ObjectMapper (3.1.0)
   - Presentr (1.3)
   - PromiseKit/CorePromise (6.2.8)
@@ -37,10 +39,12 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - AlertBar
+  - ANLoader
   - DropDown
   - ExpandableCell
   - IQKeyboardManagerSwift
   - JSONCodable
+  - ListPlaceholder
   - ObjectMapper
   - Presentr
   - QRCodeReader.swift
@@ -66,6 +70,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
   AlertBar: 0512ccfdc339dbe22c93799682308e93c784358f
+  ANLoader: 46bad48a249902b50a04e510a204f0a3d36a981d
   BigInt.swift: 1e0ddf08d82166e72dfb0fa8d40301d273081afc
   CryptoSwift: 6c778d69282bed3b4e975ff97a79d074f20bb011
   DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
@@ -73,6 +78,7 @@ SPEC CHECKSUMS:
   Geth: 0e529ddf97286eca646ab355c080ee0a2337a544
   IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
   JSONCodable: bd8616ae881befe2b82fbbf56d98b2dd377ac662
+  ListPlaceholder: 48227c2f1ff0cd2f75c8e2bb26b5a45a29cf1d4c
   ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
   Presentr: 3f0825a42cb32ecd8fc6b6d0b0de87d7d0b42482
   PromiseKit: 6788ce1a0ed5448b83d4aaf56b9fc49fb7647d32
@@ -86,6 +92,6 @@ SPEC CHECKSUMS:
   Web3: 1f0c38c8508b8487948af1cb597653b018f4b5d3
   web3swift: 9cf4ccef0c7f7e9f9abb3bc5867789b928800af6
 
-PODFILE CHECKSUM: 1b84a5b7d0d16f51c008df8ab2f2dfcd1725a58b
+PODFILE CHECKSUM: 342518cb9c6ddf477ed66bf91448e137bd1dea53
 
 COCOAPODS: 1.4.0

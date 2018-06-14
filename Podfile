@@ -16,10 +16,12 @@ pod 'Alamofire'
 pod 'ObjectMapper'
 pod 'ReachabilitySwift'
 pod 'AlertBar'
+pod 'ListPlaceholder'
 pod 'SkyFloatingLabelTextField'
 pod 'Web3/PromiseKit'
 pod 'Web3'
 pod 'JSONCodable'
+pod 'ANLoader'
 pod 'web3swift', :git => 'https://github.com/MercuryProtocol/web3.swift.git', :branch => 'master'
   target 'MeAppTests' do
     inherit! :search_paths
